@@ -14,7 +14,7 @@ public class GreetingTest {
 
     @Test
     public void shouldReturnDefaultGreetWhenNameIsNull() {
-        assertEquals("Hello my friend.", Greeting.greet( null));
+        assertEquals("Hello my friend.", Greeting.greet(null));
     }
 
     @Test
@@ -36,6 +36,6 @@ public class GreetingTest {
     public void shouldGreetBothShoutAndQuiet() {
         assertEquals("Hello Dave, Max and Mary. AND HELLO JANE!", Greeting.greet(new String[]{"Dave", "JANE", "Max", "Mary"}));
         assertEquals("Hello Dave and Mary. AND HELLO JANE AND MAX!", Greeting.greet(new String[]{"Dave", "JANE", "MAX", "Mary"}));
-        assertEquals("Hello Dave. AND HELLO JANE, MAX AND MARY!", Greeting.greet(new String[]{"Dave", "JANE", "MAX", "MARY"}));
+        assertEquals("Hello Dave. AND HELLO JANE, MAX!", Greeting.greet(new String[]{"Dave", "JANE", "MAX", "MARY"}));
     }
 }
