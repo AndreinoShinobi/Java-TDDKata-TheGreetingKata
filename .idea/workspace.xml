@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bafa62d-05be-437f-8df3-74c6299881f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greeting/Greeting.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greeting/src/greeting/Greeting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greeting/src/greeting/GreetingTest.java" />
+    <list default="true" id="1bafa62d-05be-437f-8df3-74c6299881f7" name="Default" comment="6 scenari">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Greeting/src/greeting/Greeting.java" afterPath="$PROJECT_DIR$/Greeting/src/greeting/Greeting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Greeting/src/greeting/GreetingTest.java" afterPath="$PROJECT_DIR$/Greeting/src/greeting/GreetingTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +15,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Greeting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Greeting/src/greeting/Greeting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="444">
+              <caret line="106" column="42" lean-forward="true" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
               <folding>
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#buildDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+                <element signature="method#buildUpperAndDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+                <element signature="method#buildMoreOfTwoGreet#0;class#Greeting#0" expanded="false" />
+                <element signature="method#buildMoreOfTwoGreetUpperCase#0;class#Greeting#0" expanded="false" />
+                <element signature="method#arrayHasDownCaseNamesOnly#0;class#Greeting#0" expanded="false" />
+                <element signature="e#3450#3451#0" expanded="true" />
+                <element signature="e#3506#3507#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,14 +38,12 @@
       <file leaf-file-name="GreetingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Greeting/src/greeting/GreetingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,6 +106,7 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +129,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,6 +138,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -173,6 +177,38 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GreetingTest.shouldGreetBothShoutAndQuiet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="greeting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Greeting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="greeting" />
+      <option name="MAIN_CLASS_NAME" value="greeting.GreetingTest" />
+      <option name="METHOD_NAME" value="shouldGreetBothShoutAndQuiet" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -285,38 +321,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GreetingTest.simpleGreeting" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="greeting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Greeting" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="greeting" />
-      <option name="MAIN_CLASS_NAME" value="greeting.GreetingTest" />
-      <option name="METHOD_NAME" value="simpleGreeting" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -399,19 +403,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.GreetingTest.simpleGreeting" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldReturnDefaultGreetWithNullName" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.GreetingTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldShoutWOnAllUpperCaseName" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldGreetMultipleFriends" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldReturnDefaultGreetWithNullName" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.GreetingTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldShoutWOnAllUpperCaseName" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldGreetMultipleFriends" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldGreetBothShoutAndQuiet" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.GreetingTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldGreetMultipleFriends" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldShoutWOnAllUpperCaseName" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldReturnDefaultGreetWithNullName" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.GreetingTest.simpleGreeting" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldGreetBothShoutAndQuiet" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldGreetMultipleFriends" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldShoutWOnAllUpperCaseName" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.GreetingTest.shouldReturnDefaultGreetWithNullName" />
       </list>
     </recent_temporary>
   </component>
@@ -430,76 +434,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510644640040</updated>
-      <workItem from="1510644643791" duration="3141000" />
+      <workItem from="1510644643791" duration="3269000" />
+      <workItem from="1510678342653" duration="4409000" />
+      <workItem from="1510933007244" duration="2981000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GreetingTest - 2017.11.14 at 08h 46m 20s.xml">
+    <history-entry file="GreetingTest - 2017.11.17 at 16h 45m 32s.xml">
       <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest - 2017.11.14 at 08h 52m 57s.xml">
+    <history-entry file="GreetingTest - 2017.11.17 at 16h 49m 59s.xml">
       <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest - 2017.11.14 at 09h 09m 18s.xml">
+    <history-entry file="GreetingTest - 2017.11.17 at 17h 51m 09s.xml">
       <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest - 2017.11.14 at 09h 11m 52s.xml">
+    <history-entry file="GreetingTest - 2017.11.17 at 17h 53m 07s.xml">
       <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest_shouldGreetMultipleFriends - 2017.11.14 at 09h 09m 25s.xml">
-      <configuration name="GreetingTest.shouldGreetMultipleFriends" configurationId="TestNG" />
+    <history-entry file="GreetingTest - 2017.11.17 at 17h 54m 26s.xml">
+      <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest_shouldGreetMultipleFriends - 2017.11.14 at 09h 11m 36s.xml">
-      <configuration name="GreetingTest.shouldGreetMultipleFriends" configurationId="TestNG" />
+    <history-entry file="GreetingTest - 2017.11.17 at 17h 54m 41s.xml">
+      <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest_shouldReturnDefaultGreetWithNullName - 2017.11.14 at 08h 45m 59s.xml">
-      <configuration name="GreetingTest.shouldReturnDefaultGreetWithNullName" configurationId="TestNG" />
+    <history-entry file="GreetingTest - 2017.11.17 at 17h 55m 32s.xml">
+      <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest_shouldReturnDefaultGreetWithNullName - 2017.11.14 at 08h 46m 13s.xml">
-      <configuration name="GreetingTest.shouldReturnDefaultGreetWithNullName" configurationId="TestNG" />
+    <history-entry file="GreetingTest - 2017.11.17 at 17h 57m 01s.xml">
+      <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest_shouldShoutWOnAllUpperCaseName - 2017.11.14 at 08h 50m 20s.xml">
-      <configuration name="GreetingTest.shouldShoutWOnAllUpperCaseName" configurationId="TestNG" />
+    <history-entry file="GreetingTest - 2017.11.17 at 18h 00m 41s.xml">
+      <configuration name="GreetingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GreetingTest_shouldShoutWOnAllUpperCaseName - 2017.11.14 at 08h 52m 49s.xml">
-      <configuration name="GreetingTest.shouldShoutWOnAllUpperCaseName" configurationId="TestNG" />
+    <history-entry file="GreetingTest_shouldGreetBothShoutAndQuiet - 2017.11.17 at 17h 55m 25s.xml">
+      <configuration name="GreetingTest.shouldGreetBothShoutAndQuiet" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3141000" />
+    <option name="totallyTimeSpent" value="10659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25538972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,26 +513,57 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="6 scenari" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 scenari" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunnerWorker.class">
+    <entry file="file://$PROJECT_DIR$/Greeting/src/greeting/Greeting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buildDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildUpperAndDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildMoreOfTwoGreet#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildMoreOfTwoGreetUpperCase#0;class#Greeting#0" expanded="false" />
+            <element signature="method#arrayHasDownCaseNamesOnly#0;class#Greeting#0" expanded="false" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3506#3507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greeting/src/greeting/GreetingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greeting/src/greeting/Greeting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#buildDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildUpperAndDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildMoreOfTwoGreet#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildMoreOfTwoGreetUpperCase#0;class#Greeting#0" expanded="false" />
+            <element signature="method#arrayHasDownCaseNamesOnly#0;class#Greeting#0" expanded="false" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3506#3507#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -538,10 +574,51 @@
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greeting/src/greeting/Greeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="106" column="42" lean-forward="true" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buildDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildUpperAndDownCaseNamesGreetings#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildMoreOfTwoGreet#0;class#Greeting#0" expanded="false" />
+            <element signature="method#buildMoreOfTwoGreetUpperCase#0;class#Greeting#0" expanded="false" />
+            <element signature="method#arrayHasDownCaseNamesOnly#0;class#Greeting#0" expanded="false" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3506#3507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greeting/src/greeting/GreetingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
           </folding>
         </state>
       </provider>
